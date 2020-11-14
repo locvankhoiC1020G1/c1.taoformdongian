@@ -4,61 +4,50 @@
     <meta charset="UTF-8">
     <title>taoformdongian</title>
 </head>
-<style>
-    #tieude {
-        text-align: center;
-    }
 
-    body {
-        background-color: aquamarine;
-    }
-    table{background-color: aliceblue}
-</style>
+
+
 <body>
-<table>
-    <tr>
-        <td id="tieude" colspan="2" style="background-color: orangered">Sở thích của bạn</td>
-    </tr>
-    <tr>
-        <td>Họ và tên</td>
-        <td><input style=:"text"></td>
 
-    </tr>
-    </tr>
-    <tr>
-        <td>email</td>
-        <td><input style=:"text"></td>
-    </tr>
-    <tr>
-        <td>Sở thích</td>
-        <td>
-            <table>
-                <tr>
-                    <td><input type="checkbox" name="hobby"/>Thể thao</td>
-                    <td><input type="checkbox" name="hobby"/>âm nhạc</td>
-                    <td><input type="checkbox" name="hobby"/>đọc sách</td>
-                </tr>
-                <tr>
-                    <td><input type="checkbox" name="hobby"/> lướt web</td>
-                    <td><input type="checkbox" name="hobby"/>Chơi game</td>
-                    <td><input type="checkbox" name="hobby"/>điện ảnh</td>
-                </tr>
-                <tr>
-                    <td><input type="checkbox" name="hobby"/>du lịch</td>
-                    <td></td>
-                    <td></td>
-                </tr>
+    <hr>
+    <h2>Market research survey</h2>
+        <p>please take a few moments to complete this satisfaction survey</p>
 
-            </table>
-        </td>
-    </tr>
-    <tr>
-        <td></td>
-        <td>
-            <button>Gửi thông tin</button>
-            <button>Nhập lại</button>
-        </td>
-    </tr>
-</table>
+    <p> <strong>  What is your age range</strong> </p>
+   <select>
+       <option >18-24</option>
+       <option>24-30</option>
+       <option>30-45</option>
+   </select>
+<p> what is your yearly income rang</p>
+    <select>
+        <option>0-$25000 </option>
+        <option> $25000-30000</option>
+        <option> $30000-45000</option>
+    </select>
+<p>Gender</p>
+    <input type="radio" name="gioitinh"/> Male <br>
+    <input type="radio" name="gioitinh"/> Female <br>
+    <input type="radio" name="gioitinh"/> Nonbinary <br>
+    <input type="radio" name="gioitinh"/> others <br>
+    <input type="text" name="gioitinh"/>
+    <p>which of the following products have you purchase in the last 2 months. please check all that apply </p>
+<input type="checkbox"/> product 1 <br>
+    <input type="checkbox"/> product 2 <br>
+    <input type="checkbox"/> product 3<br>
+    <p>How often do would you use our new product</p>
+    <input type="radio" name="sanpham"/> daily<br>
+    <input type="radio" name="sanpham"/> weekly<br>
+    <input type="radio" name="sanpham"/> monthly<br>
+
+
+
+
+    </fieldset>
+
+
+
+
+</form>
 </body>
 </html>
